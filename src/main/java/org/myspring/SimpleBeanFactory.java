@@ -9,7 +9,7 @@ public class SimpleBeanFactory {
     private Map<String, BeanDefinition> beanDefinitionHashMap = new HashMap<>();
     private Map<String, Object> beanHashMap = new HashMap<>();
 
-    public void registBean(String beanName, BeanDefinition beanDefinition) {
+    public void registerBean(String beanName, BeanDefinition beanDefinition) {
         beanDefinitionHashMap.put(beanName, beanDefinition);
     }
 

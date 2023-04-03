@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67caba31-fdad-4c9f-9542-c8748dd75017" name="Changes" comment="实现了一个简单的bean factory">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/myspring/test/ApiTest/SingletonBeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/myspring/SimpleBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/myspring/SimpleBeanFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="67caba31-fdad-4c9f-9542-c8748dd75017" name="Changes" comment="在bean factory的基础上实现bean的单例获取，即getBean时使用的name相同则获取的对象相同。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="simple-bean-factory" />
+        <entry key="$PROJECT_DIR$" value="singleton-bean" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680513533425</updated>
-      <workItem from="1680513534974" duration="7704000" />
+      <workItem from="1680513534974" duration="8071000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1680513903651</created>
@@ -126,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680516575355</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="在bean factory的基础上实现bean的单例获取，即getBean时使用的name相同则获取的对象相同。">
+      <created>1680542562459</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680542562459</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
     <MESSAGE value="实现了一个简单的bean factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现了一个简单的bean factory" />
+    <MESSAGE value="在bean factory的基础上实现bean的单例获取，即getBean时使用的name相同则获取的对象相同。" />
+    <option name="LAST_COMMIT_MESSAGE" value="在bean factory的基础上实现bean的单例获取，即getBean时使用的name相同则获取的对象相同。" />
   </component>
 </project>
